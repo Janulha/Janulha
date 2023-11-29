@@ -1,0 +1,1606 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Questrial&display=swap');
+
+#primeiro {
+    background-color: rgba(21, 21, 22, 0.904);
+    display: flex;
+}
+
+#segundo {
+    background-color: rgba(21, 21, 22, 0.904);
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#menu {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 300px;
+    height: 1040px;
+    position: fixed;
+}
+
+    #logo {
+        background-color: rgba(21, 21, 22, 0.904);
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        border-radius: 5px;
+    }
+
+    #nome {
+        background-color: rgba(21, 21, 22, 0.904);
+        margin-top: 15px;
+        margin-left: 70px;
+        width: 200px;
+        height: 50px;
+        position: fixed;
+        border-radius: 5px;
+    }
+
+    #categorias {
+        background-color: transparent;
+        color: white;
+        margin-top: 100px;
+        margin-left: -7px;
+        width: 265px;
+        height: 410px;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Questrial', sans-serif;
+        position: fixed;
+        border-color: rgb(255, 255, 255);
+        border-style: double;
+    }
+
+        #categorias2 {
+            background-color: rgba(21, 21, 22, 0.904);
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+    #selecao {
+        background-color: transparent;
+        color: white;
+        margin-top: 530px;
+        margin-left: -7px;
+        width: 265px;
+        height: 250px;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Questrial', sans-serif;
+        position: fixed;
+        border-radius: 5px;
+        border-color: white;
+        border-style: double;
+    }
+
+        #selecao2 {
+            background-color: rgba(21, 21, 22, 0.904);
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        #preco1, #preco2, #preco3, #preco4 {
+            margin-left: 5px;
+        }
+
+    #rodape {
+        background-color: rgba(21, 21, 22, 0.904);
+        margin-top: 870px;
+        margin-left: 5px;
+        width: 265px;
+        height: 150px;
+        position: fixed;
+        border-radius: 5px;
+        border-style: double;
+        border-color: white;
+    }
+
+        #x {
+            color: white;
+            margin-top: 10px;
+            margin-left: 30px;
+            width: 30px;
+            height: 30px;
+            position: fixed;
+        }
+
+        #facebook {
+            color: white;
+            margin-top: 10px;
+            margin-left: 90px;
+            width: 30px;
+            height: 30px;
+            position: fixed;
+        }
+
+        #instagram {
+            color: white;
+            margin-top: 10px;
+            margin-left: 155px;
+            width: 30px;
+            height: 30px;
+            position: fixed;
+        }
+
+        #colaborador1 {
+            color: rgb(169, 169, 170);
+            margin-top: 50px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: fixed;
+        }
+
+        #colaborador2 {
+            color: rgb(169, 169, 170);
+            margin-top: 70px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: fixed;
+        }
+
+        #colaborador3 {
+            color: rgb(169, 169, 170);
+            margin-top: 90px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: fixed;
+        }
+
+        #colaborador4 {
+            color: rgb(169, 169, 170);
+            margin-top: 110px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: fixed;
+        }
+
+#tela {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 1060px;
+    position: fixed;
+}
+
+#funcoes {
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 600px;
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+}
+
+    #home {
+        color: white;
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+    }
+
+    #notificacoes {
+        color: white;
+        margin-top: 10px;
+        margin-left: 85px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+    }
+
+    #pesquiza {
+        background-color: white;
+        margin-top: 0px;
+        margin-left: 125px;
+        width: 700px;
+        height: 50px;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Questrial', sans-serif;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+        #pesquiza2 {
+            background-color: white;
+            color: black;
+            margin-top: 0px;
+            margin-left: 775px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-style: none;
+        }
+
+    #carrinho {
+        color: white;
+        margin-top: 10px;
+        margin-left: 838px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+    }
+
+    #user {
+        color: white;
+        margin-top: 10px;
+        margin-left: 880px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+    }
+
+#mostrador {
+    background-color: transparent;
+    margin-top: 120px;
+    margin-left: 320px;
+    width: 1545px;
+    height: 1550px;
+    position: absolute;
+}
+
+    #imagens {
+        margin-top: -430px;
+        margin-left: 5px;
+        position: absolute;
+
+    }
+
+    #imagem1 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 450px;
+        margin-left: 5px;
+        width: 270px;
+        height: 350px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem2 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 450px;
+        margin-left: 290px;
+        width: 250px;
+        height: 320px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem3 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 450px;
+        margin-left: 555px;
+        width: 700px;
+        height: 320px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem4 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 820px;
+        margin-left: 5px;
+        width: 270px;
+        height: 320px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem5 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 790px;
+        margin-left: 290px;
+        width: 350px;
+        height: 420px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem6 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 450px;
+        margin-left: 1270px;
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem7 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 820px;
+        margin-left: 1270px;
+        width: 250px;
+        height: 320px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem8 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 790px;
+        margin-left: 655px;
+        width: 600px;
+        height: 480px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem9 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 1285px;
+        margin-left: 655px;
+        width: 600px;
+        height: 195px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem10 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 1160px;
+        margin-left: 5px;
+        width: 270px;
+        height: 320px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem11 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 1225px;
+        margin-left: 290px;
+        width: 350px;
+        height: 255px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+    #imagem12 {
+        background-color: rgb(0, 0, 0);
+        margin-top: 1160px;
+        margin-left: 1270px;
+        width: 250px;
+        height: 320px;
+        position: absolute;
+        border-radius: 20px;
+    }
+
+#loja {
+    background-color: rgb(44, 43, 43);
+    margin-top: 1700px;
+    margin-left: 342px;
+    width: 1515px;
+    height: 1740px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#depois {
+    color: rgba(255, 255, 255, 0.904);
+    margin-top: 0px;
+    margin-left: -21px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+
+#agora {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+}
+
+    #produto1 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 0px;
+        margin-left: -13px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+
+        #foto1 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+
+        #nome1 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+
+        #descricao1 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor1 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+
+        #botao1 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #carrinho1 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto2 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 0px;
+        margin-left: 495px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+    
+        #foto2 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+    
+        #nome2 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+    
+        #descricao2 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor2 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+    
+        #botao2 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #carrinho2 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto3 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 0px;
+        margin-left: 1003px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+        
+        #foto3 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        
+        #nome3 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        #descricao3 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor3 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+        
+        #botao3 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+        
+        #carrinho3 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto4 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 350px;
+        margin-left: -13px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+        
+        #foto4 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        
+        #nome4 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        #descricao4 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor4 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+        
+        #botao4 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+        
+        #carrinho4 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+        
+    #produto5 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 350px;
+        margin-left: 495px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+            
+        #foto5 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+            
+        #nome5 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+            
+        #descricao5 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor5 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+            
+        #botao5 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+            
+        #carrinho5 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto6 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 350px;
+        margin-left: 1003px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+            
+        #foto6 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+            
+        #nome6 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+            
+        #descricao6 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor6 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+            
+        #botao6 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+            
+        #carrinho6 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto7 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 700px;
+        margin-left: -13px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+
+        #foto7 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+
+        #nome7 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+
+        #descricao7 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor7 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+
+        #botao7 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #carrinho7 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto8 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 700px;
+        margin-left: 495px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+    
+        #foto8 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+    
+        #nome8 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+    
+        #descricao8 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor8 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+    
+        #botao8 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #carrinho8 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto9 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 700px;
+        margin-left: 1003px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+        
+        #foto9 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        
+        #nome9 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        #descricao9 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor9 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+        
+        #botao9 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+        
+        #carrinho9 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto10 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 1050px;
+        margin-left: -13px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+        
+        #foto10 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        
+        #nome10 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        #descricao10 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor10 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+        
+        #botao10 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+        
+        #carrinho10 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+        
+    #produto11 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 1050px;
+        margin-left: 495px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+            
+        #foto11 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+            
+        #nome11 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+            
+        #descricao11 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor11 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+            
+        #botao11 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+            
+        #carrinho11 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto12 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 1050px;
+        margin-left: 1003px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+            
+        #foto12 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+            
+        #nome12 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+            
+        #descricao12 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor12 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+            
+        #botao12 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+            
+        #carrinho12 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+   
+    #produto13 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 1400px;
+        margin-left: -13px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+        
+        #foto13 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+        
+        #nome13 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        #descricao13 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor13 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+        
+        #botao13 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+        
+        #carrinho13 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+        
+    #produto14 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 1400px;
+        margin-left: 495px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+            
+        #foto14 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+            
+        #nome14 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+            
+        #descricao14 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor14 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+            
+        #botao14 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+            
+        #carrinho14 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+    #produto15 {
+        background-color: rgba(0, 0, 0);
+        margin-top: 1400px;
+        margin-left: 1003px;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        border-radius: 30px;
+    }
+            
+        #foto15 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 10px;
+            margin-left: -2px;
+            width: 250px;
+            height: 320px;
+            position: absolute;
+            border-radius: 20px;
+        }
+            
+        #nome15 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 0px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 5px;
+        }
+            
+        #descricao15 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 55px;
+            margin-left: 270px;
+            width: 218px;
+            height: 230px;
+            position: absolute;
+        }
+
+        #valor15 {
+            background-color: rgb(121, 122, 121);
+            margin-top: 250px;
+            margin-left: 363px;
+            width: 120px;
+            height: 30px;
+            position: absolute;
+        }
+            
+        #botao15 {
+            background-color: rgba(21, 21, 22, 0.904);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 218px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 30px;
+        }
+            
+        #carrinho15 {
+            background-color: rgb(90, 89, 89);
+            margin-top: 290px;
+            margin-left: 270px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            border-top-left-radius: 5px;
+        }
+
+#fim {
+    background-color: rgba(21, 21, 22, 0.904);
+    margin-top: 3500px;
+    margin-left: 350px;
+    width: 1510px;
+    height: 200px;
+    position: absolute;
+    border-color: white;
+    border-style: double;
+}
+
+    #pe1 {
+        margin-top: 7px;
+        margin-left: -3px;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+    } 
+
+    #aviso {
+        color:white;
+        margin-top: 7px;
+        margin-left: 300px;
+        position: absolute;
+    } 
+
+    #aviso2 {
+        color:rgb(255, 0, 0);
+        margin-top: 150px;
+        margin-left: 550px;
+        position: absolute;
+    } 
+
+    #aviso3 {
+        color:rgb(0, 123, 255);
+        text-decoration:underline;
+    }
+
+    #pe2 {
+        background-color: rgba(21, 21, 22, 0.904);
+        margin-top: 7px;
+        margin-left: 1220px;
+        width: 265px;
+        height: 150px;
+        position: absolute;
+        border-radius: 5px;
+        border-style: double;
+        border-color: white;
+    }
+
+        #x {
+            background-color: rgba(21, 21, 22, 0.904);
+            color: white;
+            margin-top: 10px;
+            margin-left: 30px;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+        }
+
+        #facebook {
+            background-color: rgba(21, 21, 22, 0.904);
+            color: white;
+            margin-top: 10px;
+            margin-left: 90px;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+        }
+
+        #instagram {
+            background-color: rgba(21, 21, 22, 0.904);
+            color: white;
+            margin-top: 10px;
+            margin-left: 155px;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+        }
+
+        #colaborador1 {
+            background-color: transparent;
+            color: rgb(169, 169, 170);
+            margin-top: 50px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: absolute;
+        }
+
+        #colaborador2 {
+            background-color: transparent;
+            color: rgb(169, 169, 170);
+            margin-top: 70px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: absolute;
+        }
+
+        #colaborador3 {
+            background-color: transparent;
+            color: rgb(169, 169, 170);
+            margin-top: 90px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: absolute;
+        }
+
+        #colaborador4 {
+            background-color: transparent;
+            color: rgb(169, 169, 170);
+            margin-top: 110px;
+            margin-left: -12px;
+            width: 265px;
+            height: 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Questrial', sans-serif;
+            position: absolute;
+        }

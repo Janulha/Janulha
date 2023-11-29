@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(15, 14, 14);
+    color:rgb(248, 201, 131);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+
+button {
+    border-radius: 50px;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(248, 201, 131);
+}

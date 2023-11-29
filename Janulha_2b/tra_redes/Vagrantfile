@@ -1,0 +1,54 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.define "vm1" do |vm1|
+   vm1.vm.hostname = "vm1"
+
+   vm1.vm.box = "ubuntu/focal64"
+
+   vm1.vm.network "forwarded_port", guest: 80, host: 82 host_ip: "192.168.56.12"
+   vm1.vm.network "private_network", ip: "192.168.56.10"
+
+   vm1.vm.synced_folder "./trabalho_tenebris", "/var/www/html"
+     
+    vm1.vm.provider "virtualbox" do |vb1|
+      vb.memory = "1024"
+      vb.cpus = "2"
+    end 
+    vm1.vm.provision "shell", inline:<<-SHELL
+     apt-get update
+     sudo su
+     apt-get install -y docker.io
+     docker run -d -p 80:80 -v /var/www/html/:/var/www/html httpd:2.4
+    SHELL
+  end
+   
+  config.vm.define "vm2" do |vm2|
+   vm2.vm.hostname = "vm2"
+   vm2.vm.box = "ubuntu/focal64"
+   vm2.vm.network "forwarded_port", guest: 80, host: 84 host_ip: "192.168.56.11"
+   vm2.vm.network "private_network", ip: "192.168.56.10"
+   vm2.vm.synced_folder "./trabalho_tenebris", "/var/www/html"
+    vm2.vm.provider "virtualbox" do |vb2|
+      vb.memory = "1024"
+      vb.cpus = "2"
+    end 
+    vm2.vm.provision "shell", inline: <<-SHELL
+     apt-get update
+     sudo su
+     apt-get install -y docker.io
+     docker run -d -p 3306:3306 --name mysql-container -e MYSQL_ROOT_PASSWORD=vagant mysql:latest
+    SHELL
+  end
+   
+  config.vm.define "vm3" do |vm3|
+   vm3.vm.hostname = "vm3"
+   vm3.vm.box = "ubuntu/focal64"
+   vm3.vm.network "forwarded_port", guest: 80, host: 83 host_ip: "192.168.56.13"
+   vm3.vm.network "private_network", ip: "192.168.56.10"
+   vm3.vm.synced_folder "./trabalho_tenebris", "-"
+    vm3.vm.provider "virtualbox" do |vb2|
+      vb.memory = "1024"
+      vb.cpus = "2"
+    end 
+  end
+end
